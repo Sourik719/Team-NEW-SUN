@@ -1,1 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+    <title>Membership Form</title>
+    <link rel="stylesheet" href="../Project 1/FormStyle.css">
+</head>
+<body>
+    <div class="first" >
+        <img id="logo" src="../Resource/Photos/Logo.png" height="200" width="200">
+        <img id="logo1" src="../Resource/Photos/Logo.png" height="200" width="200">
+        <h1 id="title">Team NEW SUN</h1>
+        <h3 id="estd">Estd:2019</h3>
+        <h2 id="location"> Belgharia,Kolkata-56 </h2>
+        <h2 id="tagline">"Helping others preserves the places you cherish."</h2>
+        <br>
+         </div>
+    <div id="rest">
+    <form  method='POST' class="membership_form" name="google-sheet">
+    <h2 id="heading">Membership Form</h2>
+    <h3 id="parameter">First Name: <input type="name" name="First Name" required></h3>
+    <h3 id="parameter">Last Name: <input type="name" name="Last Name" required></h3>
+    <h3 id="parameter">Address:  <textarea rows="2"cols="25" name="Address" required>Enter address</textarea></h3>
+    <h3 id="parameter">Date of Birth: <input type="date" name="Date of Birth" required></h3>
+    <h3 id="parameter">Phone Number: <input type="tel" name="Phone Number" required></h3>
+    <h3 id="parameter">Email id: <input type="email" name="Email Id" required></h3>
+    <h3 id="parameter"for="blood_grp">Blood Group:
+  <select name="Blood Group" id="cars">
+    <option value="A+">A+</option>
+    <option value="A-">A-</option>
+    <option value="B+">B+</option>
+    <option value="B-">B-</option>
+    <option value="AB+">AB+</option>
+    <option value="AB-">AB-</option>
+    <option value="O+">O+</option>
+    <option value="O-">O-</option> 
+  </select>
+</h3>
+    <input id="submit_btn" type="submit" name="submit" >
+<br>
+<br>
+    </form>
+</div>
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbxfV3x8DYl9edomBUPL4uWbK93d1uqVTxbPyQNFuN269BfPSrQhz6k-4fb1nD4lANBu/exec'
+  const form = document.forms['google-sheet']
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => alert('Success!You are now a member of Team NEW SUN'))
+      .then(response=> window.location.href="file:///D:/HTML/Project%201/Project%201.html")
+      .catch(error => alert('Error! Try again', error.message))
+  })
+</script>
+<script src="https://wzrd.in/standalone/formdata-polyfill"></script>
+<script src="https://wzrd.in/standalone/promise-polyfill@latest"></script>
+<script src="https://wzrd.in/standalone/whatwg-fetch@latest"></script>
+</body>
+</html>
