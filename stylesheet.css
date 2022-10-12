@@ -1,0 +1,297 @@
+
+ body{
+            text-align: center;
+           margin: 0;
+           border: none;
+           padding-top: 0px;
+           background-color: antiquewhite;
+        }
+.first{
+  position:relative;
+  padding-top: 0px;
+  margin: 0px;
+  color: coral;
+  font-size: larger;
+  background-color: black;
+  }
+        h1
+    {
+        color: #3e7274;
+        margin: 1px auto 0 auto;  /*margins go as top right bottom and then left*/
+        font-size: 70px;
+    }
+    ul
+    {
+        color: #3e7274;
+        margin: 1px auto 0 auto;  /*margins go as top right bottom and then left*/
+        font-size: 30px;
+    }
+        #estd{
+            color:white;
+            font-size: medium;
+            font-size: 22px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        #logo{
+            float: left; 
+            margin-top: 20px;
+        }
+        #logo1{
+            float: right;
+            margin-top: 20px;
+        }
+        #location{
+            color:green;
+            font-size: 25px;
+            font-style: inherit;
+        }
+        #heading{
+            text-align: left;
+            font-size: 40px;
+            font-style: normal;
+            font-family: 'Times New Roman', Times, serif;
+            color: black;
+            margin-left: 10px;
+            text-decoration-line: underline;
+        }
+        .rest{
+            padding: 0%;
+            border-bottom: 0;
+        }
+        #navbar{
+          background-color:rgb(243, 161, 175);
+          margin-top: 0px ;
+          overflow: hidden; 
+          height:30pt;       
+      }
+          #navbar a {
+              
+              font-size: 25px;
+              color: white;
+              text-align: center;
+              padding: 14px 16px;
+              text-decoration: none;
+            }
+/* mouse over link */
+
+
+/* selected link */
+
+#navbar a:focus,#navbar a:hover{
+  background-color: rgb(235, 16, 213);
+  color: #333;
+  border-bottom: blue 2px solid;
+
+}
+  .topbutton_left{
+    float:left;
+  }
+  .topbutton_right{
+    float: right;
+  }
+  #content{
+    text-align: justify;
+    color: black;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: 5px;
+    margin-left: 25px;
+    
+    margin-top: 0px;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+  #intro{
+    float: right;
+    margin: 5px;
+    margin-top: 0px;
+    border-color: #3e7274;
+    border-style: dashed;
+   border-width: 5pt;
+ }
+ /*Gallery CSS Start*/
+ #navgallery{
+    margin-top: 0px ;
+    overflow: hidden;
+    word-spacing: 10px;
+    
+}
+    #navgallery a {
+        float:center;
+        font-size: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+        text-align: center;
+        padding: 14px 10px;
+        text-decoration: none;
+      }
+/* mouse over link */
+#navgallery a:hover {
+color: rgb(178, 33, 33);
+background-color:rgb(128, 24, 218);
+}
+
+/* selected link */
+#navgallery a.active {
+color: blue;
+background-color: black;
+}
+#navgallery a:focus {
+    color: green;
+    background-color: white;
+    font-style: italic;
+}
+#pic{
+    padding:10pt;
+}
+#Videos{
+    display: none;
+}
+  /*Gallery CSS End*/
+
+  .vertical_menu a {
+    color: black; /* Black text color */
+    display: block; /* Make the links appear below each other */
+    padding: 1px; /* Add some padding */
+    text-decoration: none; /* Remove underline from links */
+    text-align: right;
+    float: center;
+    font-size: x-large;
+    word-spacing: 5px;
+    overflow-x: hidden;
+  }
+  .vertical_menu {
+    background-color: blueviolet;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    right:0;
+    margin-bottom:30pt;
+  
+    list-style-type: none;
+    line-height: 2pt;
+  }
+
+  #contact_phone a {
+    background-color: aqua;
+    overflow:hidden;
+    padding: 10px;
+    color:rgb(243, 161, 175);
+    font-size: 20px;
+    margin: left 10pt;
+  }
+  #contact_mail a {
+    background-color: aqua;
+    overflow:hidden;
+    padding: 10px;
+    text-align: right;
+    color:rgb(243, 161, 175);
+    font-size: 20px;
+    margin: left 10pt;
+  }
+  #contact_address a {
+    background-color: aqua;
+    overflow:hidden;
+    padding: 10px;
+    text-align: center;
+    color:rgb(243, 161, 175);
+    font-size: 20px;
+  
+  }
+  #call{
+    font-size: 45;
+    margin-top: 15pt;
+    text-decoration: none;
+ }
+ #Mail{
+    margin-top: 15pt;
+    text-decoration: none;
+    font-size: 25;
+ }
+ #address{
+  text-decoration: none;
+  font-size: 25;
+
+ }
+
+.left{
+    float:left;
+    margin-left: 25pt;
+}
+.center{
+    float:left;
+    margin-left: 260pt;
+    margin-right: 0pt;
+}
+.right{
+  float: right;
+  max-width: 45%;
+ margin-right: 10pt;
+}
+li{
+  list-style: none;
+}
+#contacts{
+  font-size: 16pt;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: darkslategrey;
+}
+#wp_btn{
+  background-color: #25D366; 
+}
+/*Projects CSS*/
+#list_left{
+  float: left;
+  max-width: 30%;
+  background-color: #eee;
+  padding-top: 0pt;
+  border-style:double;
+  border-width: 6pt;
+  font-size:20pt;
+  margin-left:20pt;
+}
+#list_left a {
+  background-color: #eee; /* Grey background color */
+  color: black; /* Black text color */
+  display: block; /* Make the links appear below each other */
+  padding: 12px 20px; /* Add some padding */
+  text-decoration: none;
+ 
+}
+#projects{
+  display:block;
+}
+#content_right{
+  float: center;
+  background-color: pink;
+  margin-top: 0%;
+
+  padding-bottom: 6pt;
+  text-align: left;
+  margin-right:20pt;
+  margin-left: 20pt;
+  min-height: 205pt;
+}
+
+#sdc{
+  display:block;
+}
+p#aa,p#wed,p#bg,p#cp{
+  display:none ;
+}
+
+
+#list_left a:hover{
+  background-color: gray;
+  color: red;
+  padding: 12px 20px;
+}
+#list_left a.active{
+  background-color: aqua;
+  color:lightcoral;
+  padding: 12px 20px;
+}
