@@ -1,0 +1,66 @@
+h1
+{
+    color: #3e7274;
+    margin: 1px auto 0 auto;  /*margins go as top right bottom and then left*/
+    font-size: 70px;
+}
+    #estd{
+        color:white;
+        font-size: medium;
+        font-size: 22px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    #logo{
+        float: left; 
+        margin-top: 20px;
+    }
+    #logo1{
+        float: right;
+        margin-top: 20px;
+    }
+    #location{
+        color:green;
+        font-size: 25px;
+        font-style: inherit;
+    }
+    .first{
+        position:relative;
+        padding-top: 0px;
+        margin: 0px;
+        border: 0px;
+        top:0%;
+        width:100%;
+        color: coral;
+        font-size: larger;
+        background-color: black;
+        }
+    
+body{
+  text-align: center;
+  margin:0px;
+  background-color: red;
+}
+
+.membership_form{
+ background-color: rgb(239, 222, 37);
+margin-right: 300px;
+margin-left: 300px;
+border:2px;
+ text-align: center;
+}
+#heading{
+    text-align: center;
+    color: aliceblue;
+    font-size: xx-large;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: black;
+    height:10%;
+}
+#parameter{
+    display: inline-flexbox;
+    padding-left: 10pt;
+}
+#submit_btn{
+    text-align: center!important;
+    
+}
