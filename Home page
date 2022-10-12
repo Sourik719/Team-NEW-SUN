@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+
+<head>
+    <title>Team NEW SUN</title>
+    <link rel="stylesheet" href="./Style.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <div class="first" >
+    <img id="logo" src="../Project 1/Resource/Photos/Logo.png" height="200" width="200">
+    <img id="logo1" src="../Project 1/Resource/Photos/Logo.png" height="200" width="200">
+    <h1 id="title">Team NEW SUN</h1>
+    <h3 id="estd">Estd:2019</h3>
+    <h2 id="location"> Belgharia,Kolkata-56 </h2>
+    <h2 id="tagline">"Helping others preserves the places you cherish."</h2>
+    <br>
+     </div>
+
+<div class="rest">
+    <div id="navbar">
+        <ul><div class="topbutton_left">
+            <a href="#introduction"title="Home"> Home</a>
+            <a href="#About us" title="About Us">About</a>
+            <a href="#Projects" title="Projects">Projects</a>
+            <a href="#Gallery" title="Gallery">Gallery</a>
+            <a href="#contactus" title="Contact Us">Contact</a>
+        </div>
+        <div class="topbutton_right">
+        <a href="https://api.whatsapp.com/send?phone=3197010240285" id="wp_btn">WhatsApp</a>
+        <a onclick="wanttojoin()">Join Us</a>
+        </div>
+        </ul>
+        </div>
+    <div class="vertical_menu" id="navsocial">
+            <li>
+                <a href="https://www.facebook.com/helpingsociety2019/"class="fa fa-facebook"></a>
+                <a href="shorturl.at/uES06" class="fa fa-instagram"></a>
+                <a href="https://www.youtube.com/c/TeamNEWSUN2019" class="fa fa-youtube"></a>
+                <a href="https://twitter.com/newsunngo2019?s=09" class="fa fa-twitter"></a>
+            </li>
+           </div>
+<br>
+<div id="introduction">
+    <h1 class="second" id="heading">
+    Introduction:
+    </h1>
+    <hr weight="10">
+    <p>
+    <img id="intro" src="./Resource/Photos/Photos-1.jpg" height="150" width="200">
+    <p class="second" id="content">
+        Team NEW SUN is a social welfare organistaion, run by a group of college going students,working on various social welfare projects. Our primary vision is to make people realize that only by giving a little they can get happiness which they would have never dreamt of.
+    </p>
+    </p>
+    <br>
+    <br>
+    <br>
+    <br>
+    <hr>
+</div>
+<div id="About us">
+<h1 class="third" id="heading">
+    About Us:
+    </h1>
+    <hr>
+    <p class="third" id="content">
+        We know that from the very beginning of human civilization, there exists society and we all know that in every stage of our life we have some responsibility towards society. Remembering that, this team is our little step to take the responsibility. We think and believe that nothing is more valuable than love and support. So to make our journey easy please raise your hand and support us. Join us. Share your valuable ideas and we think we will be able to do something to make you proud.
+    </p>
+</div>
+<div id="Projects">
+<h1 class="fourth" id="heading">
+    Projects
+</h1>
+    <hr>
+    <div id="list_left">
+        
+            <a href="#Projects" onclick="showSDC()" >Special Day Celebration</a>
+            
+            <a href="#Projects" onclick="showBG()">Boighor</a>
+            
+            <a href="#Projects" onclick="showAA()">Agomonir Ahobane</a>
+            
+            <a  href="#Projects" onclick="showCP()">Christmas Project</a>
+            
+            <a href="#Projects" onclick="showWED()" >World Environment Day</a>
+        
+          </div>
+    </div>
+    <div id="content_right">
+        <h2> Overview</h2>
+        <p id="sdc"> Special Day Celebration </p>
+        <p id="bg"> Boighor    </p>
+        <p id="aa">Agomonir Ahobane</p>
+        <p  id="cp"> Christmas Project</p>
+        <p  id="wed">World Environment Day</p>
+       
+    </div>
+<br>
+</div>
+<div id="Gallery">
+<h1 class="fifth" id="heading">
+    Gallery
+    </h1>
+    <hr>
+    <nav id="navgallery">
+        <a href="#photos"title="Photos" id="photosbtn"> Photos</a>
+        <a href="#Videos" title="Videos" id="videosbtn">Videos</a>
+    </nav>
+    <div id="Photos">
+        <img id="pic" src="./Resource/Photos/Photos-1.jpg" height="150" width="200">
+        <img id="pic" src="./Resource/Photos/Photos-1.jpg" height="150" width="200">
+        <img id="pic" src="./Resource/Photos/Photos-1.jpg" height="150" width="200">
+
+    </div>
+    <div id="Videos">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/afj3jmfXHFQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="padding:10pt;"></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/m7jzg7Uvq8c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="padding:10pt;" ></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Brh5kWY_PWQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="padding:10pt;"></iframe>
+    </div>
+</div>
+<div id="contactus">
+<h1 class="sixth" id="heading">
+    Contact Us
+    <hr>
+    </h1>
+<div id="contacts">
+    <div class="left" id="contact_phone">
+        <a href="tel:8617790162" id="call_button">Call Now</a>
+        <div id="call"><i class="material-icons">phone</i> 8617790162</div>
+    </div>
+<div class="center" id="contact_mail">
+    <a href="mailto:newsunngo@gmail.com" id="mail_button">Mail Us at</a>
+    <div id="Mail"><i class="material-icons">email</i>newsunngo@gmail.com</div>
+</div>
+<div class="right" id="contact_address">
+    <a href="https://www.google.com/maps/dir//Team+NEW+SUN/@22.6609993,88.3117125,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x39f89daada69fc67:0x1e128db1d24150c2!2m2!1d88.3817529!2d22.6610145" id="address_btn">Address</a>
+    <div id="address"><i class="material-icons">direction</i><li>2a,Degree College Road,</li> <li>Belgharia,Kolkata-56</li></div>
+</div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<hr>
+
+
+</div>
+</div>
+
+<script>
+    /*Navigation Bar*/
+    window.onscroll = function (){myFunction()};
+    
+    var navbar = document.getElementById("navbar");
+    var sticky = navbar.offsetTop;
+    
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+      } else {
+        navbar.classList.remove("sticky");
+      }
+    }
+    const btnjoin=document.getElementById("join_btn");
+    function wanttojoin(){
+        if(confirm("Do you want to join Team NEW SUN?")){
+           location.href='file:///D:/HTML/Project%201/Form.html';
+        }
+    }
+   
+/*Gallery Part*/
+    const btnvid=document.getElementById("videosbtn");
+    const btnpic=document.getElementById("photosbtn");
+    var displayvid=document.getElementById("Videos");
+    var displaypic=document.getElementById("Photos");
+    function vidshow(){
+        displaypic.style.display='none';
+        displayvid.style.display='block';
+    }
+    btnvid.addEventListener('click',function(){vidshow()});
+
+    function picshow(){
+        displaypic.style.display='block';
+        displayvid.style.display='none';
+    }
+    btnpic.addEventListener('click',function(){picshow()});
+
+/*Projects Part*/
+    var displaySDC=document.getElementById("sdc"); 
+    var displayBG=document.getElementById("bg");
+    var displayAA=document.getElementById("aa");
+    var displayCP=document.getElementById("cp");
+    var displayWED=document.getElementById("wed");
+     function showSDC(){
+        displaySDC.style.display='block';
+        displayBG.style.display='none';
+        displayAA.style.display='none'
+        displayCP.style.display='none';
+        displayWED.style.display='none';
+     }
+     function showBG(){
+        displaySDC.style.display='none';
+        displayBG.style.display='block';
+        displayAA.style.display='none'
+        displayCP.style.display='none';
+        displayWED.style.display='none';
+        
+     }
+     function showAA(){
+        displaySDC.style.display='none';
+        displayBG.style.display='none';
+        displayAA.style.display='block'
+        displayCP.style.display='none';
+        displayWED.style.display='none';
+     }
+     function showCP(){
+        displaySDC.style.display='none';
+        displayBG.style.display='none';
+        displayAA.style.display='none'
+        displayCP.style.display='block';
+        displayWED.style.display='none';
+     }
+     function showWED(){
+        displaySDC.style.display='none';
+        displayBG.style.display='none';
+        displayAA.style.display='none'
+        displayCP.style.display='none';
+        displayWED.style.display='block';
+     }
+    console.log(document.activeElement);
+    </script>
+
+</body>
+</html>
