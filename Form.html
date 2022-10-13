@@ -52,7 +52,7 @@
     e.preventDefault()
     fetch(scriptURL, { method: 'POST', body: new FormData(form)})
       .then(response => alert('Success!You are now a member of Team NEW SUN'))
-      .then(response=> window.location.href="file:///D:/HTML/Project%201/Project%201.html")
+      .then(response=> window.location.href="index.html")
       .catch(error => alert('Error! Try again', error.message))
   })
 </script>
